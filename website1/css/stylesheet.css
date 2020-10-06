@@ -1,0 +1,52 @@
+body {
+    /* background-color: black; */
+    background-image: url('../images/rice-field.jpg');
+    background-attachment: fixed;
+    font-family: cursive;
+    font-size: medium;
+    padding: 20px;
+}
+
+#container {
+    /* background-color: burlywood; */
+    background-color: transparent;
+    border: brown;
+    width: 40%;
+    padding: 15px;
+    box-shadow: none;
+}
+
+#container .inner {
+    padding: 15px;
+    background-color: #f3ecdf;
+    border-style: none;
+    border-color: brown;
+    box-shadow: sandybrown;
+}
+
+#container .inner .important {
+    /* text-align: justify; */
+    border-color: brown;
+    border-style: none;
+    background-color: wheat;
+    padding: 5px;
+    color: brown;
+    font-variant: small-caps;
+    font-weight: bolder;
+    font-stretch: ultra-expanded;
+}
+
+h1 {
+    size: 76px;
+    color: seagreen;
+}
+
+h2 {
+    size: 60;
+    color: lightgreen;
+}
+
+a {
+    color: yellowgreen;
+    text-decoration: none;
+}
